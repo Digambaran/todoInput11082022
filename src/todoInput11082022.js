@@ -6,7 +6,7 @@ export const TodoInput11082022 = ({ refetch }) => {
   const handleAdd = async () => {
     setSubmitting(true)
     try {
-      const res = await fetch(`${env.BLOCK_FUNCTION_URL}/addTodo`, {
+      const res = await fetch(`${env.BLOCK_FUNCTION_URL}/addTodo11082022`, {
         method: 'post',
         body: JSON.stringify({ name: todo }),
       })
